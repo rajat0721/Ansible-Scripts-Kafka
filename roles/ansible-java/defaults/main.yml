@@ -1,3 +1,5 @@
-jdk_version: '7'
+jdk_version: '8'
+java_name: "OpenJDK8U-jdk_x64_linux_hotspot_8u222b10"
+java_mirror: "https://artifactory.idfcbank.com/extra-binaries/openjdk/8"
 symlnk_to: 'java{{ jdk_version }}'
 accept_oracle_licence: true

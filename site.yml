@@ -2,8 +2,8 @@
 - hosts: zookeepers
   roles:
     - {
-        role: ansible-java, 
-        when: accept_oracle_licence
+        role: ansible-java
+        #when: accept_oracle_licence
       }
     - {
         role: ansible-zookeeper,
@@ -12,8 +12,8 @@
 - hosts: kafka-nodes
   roles:
     - {
-        role: ansible-java, 
-        when: accept_oracle_licence
+        role: ansible-java
+        #when: accept_oracle_licence
       }
     - {
         role: ansible-kafka
